@@ -113,7 +113,7 @@ public class KolodaViewAnimator {
             delay: 0.0,
             options: .CurveLinear,
             animations: {
-                self.koloda?.moveOtherCardsWithPercentage(0)
+                self.koloda?.moveOtherCardsWithFinishPercent(0)
             },
             completion: { finished in
                 completion?(finished)
